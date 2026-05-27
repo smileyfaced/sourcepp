@@ -50,7 +50,7 @@ endif()
 
 # libtommath
 if(NOT TARGET libtommath)
-    add_sourcepp_remote_library(libtommath https://github.com/craftablescience/libtommath 03101d4556acd45175d5cfe0575601cf6acadef2 OVERRIDE_FIND_PACKAGE EXCLUDE_FROM_ALL)
+    add_sourcepp_remote_library(libtommath https://github.com/smileyfaced/libtommath c1c89936827467e621ca157e83cfb438e3c92480 OVERRIDE_FIND_PACKAGE EXCLUDE_FROM_ALL)
 endif()
 
 
